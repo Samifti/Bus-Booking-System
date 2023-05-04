@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	 <link rel="preconnect" href="https://fonts.googleapis.com"/>
+	 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Oswald&amp;display=swap" rel="stylesheet"/>
+   </head>
+   <body>
+  
+      <div class="header">
+
+         <div class="nav-container">
+		 	   
+            <div class="logo">
+               <img src="img/logo1.png" />
+            </div>
+            <nav>
+               <ul>
+			  <div class="home">
+                  <li><a class="current" href="index.html">Home</a></li> </div>
+				   <div class="dropdown">
+				<li><button class="dropbtn" ><span>Travel</span> 
+					<i class="fa fa-caret-down"></i>
+				</button> </li>
+				  <div class="dropdown-content">
+                  <li><a href="lahore.html">Lahore</a></li>
+                  <li><a href="karachi.html">Karachi</a></li>
+                  <li><a href="islamabad.html">Islamabad</a></li>
+				  <li><a href="multan.html">Multan</a></li>
+				  </div>
+				  </div>
+                  <li><a class="ex2" href="enquiry.html">Enquiry</a></li>
+                  <li><a class="ex2" href="about.html">About Me</a></li>
+				  <li><a  class="ex2" href="disclaimer.html">Disclaimer </a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <div class="banner-image-enquire banner-st">
+         <div class="banner-text">
+            <h1 class="heading1">Enquire Now!</h1>
+         </div>
+      </div>
+      <div class="marquee">
+         <marquee onmouseover="this.stop();" onmouseout="this.start();">
+              Welcome to TransFlux Bus Transport Services. We offer Luxury Transportation from Major cities in Pakistan.
+         </marquee>
+      </div>
+	  
+      <div class="form-container feed-background-image" >
+	  <h2 align="center">Enquiry</h2><br/>
+	  <article>
+        <form action="mailto:102763363@students.swinburne.edu.my" method="post" name="enquiryform" autocomplete="on">
+			<fieldset>
+			<legend>Personal Details</legend>
+			<table>
+				<tr>
+					<td class="row"><label for="fname">First name:</label></td>
+					<td><input type="text" id="fname" placeholder="Your first name" maxlength="25" required="required" />*</td>
+				</tr>
+				
+				<tr>
+				<td class="row"><label for="lname">Last name:</label></td>
+				<td><input type="text" id="lname" placeholder="Your last name" maxlength="25" required="required" />*</td>
+				</tr>
+				
+				<tr>
+				<td class="row"><label for="DOB">Date of birth:</label></td>
+				<td><input type="date" id="DOB" required="required" />*</td>
+				</tr>
+				
+				<tr>
+				<td class="row"><label for="number">Phone number:</label></td>
+				<td><input type="tel" id="number" placeholder="Your phone number" maxlength="10" required="required" />*</td>
+				</tr>
+				
+				<tr>
+				<td class="row"><label for="email">Email:</label></td>
+				<td><input type="email" id="email" name="email" placeholder="Your email" required="required" />*</td>
+				</tr>
+			</table>
+			</fieldset>
+		
+			<fieldset>
+				<legend>Address</legend>
+				<table>
+					<tr>
+					<td class="row"><label for="street">Street address:</label></td>
+					<td><input type="text" id="street" placeholder="Your street address" maxlength="40" required="required" />*</td>
+					</tr>
+					
+					<tr>
+					<td class="row"><label for="city">City/town:</label></td>
+					<td><input type="text" id="city" placeholder="Your city/town" maxlength="20" required="required" />*</td>
+					</tr>
+					
+					<tr>
+					<td class="row"><label for="state">State:</label></td>
+					<td>
+					<select name="state" id="state" required="required">
+						<option value="">Select your state</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Balochistan">Balochistan</option>
+						<option value="KPK">KPK</option>
+						<option value="Sindh">Sindh</option>
+					</select>* 
+					</td>
+					</tr>
+					
+					<tr>
+					<td class="row"><label for="postcode">Postcode:</label></td>
+					<td><input type="text"  name="postcode" maxlength="5"  id="postcode" pattern="\d{5}" placeholder="Your postcode" required="required" />*	</td>	
+					</tr>
+			</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Services</legend>
+					<table>
+					<tr>
+						<td class="row"><label for="service">Service:</label></td>
+						<td><select name="service" id="service" required="required">
+							<option value="">Select your service</option>
+							<option value="reservation">Reservation</option>
+							<option value="information">Information</option>
+							<option value="complaints">Complaints</option>
+						
+						</select>*</td>
+						</tr>
+						
+						<tr>
+						<td class="row"><label>Your comment:</label></td>
+						<td><textarea name="txt" rows="5" cols="40" id="comment" placeholder="Enter comments here"></textarea></td>
+						</tr>
+					</table>
+				</fieldset>
+			
+			<div id="submit-reset">
+				<input type="submit" id="submit" value="Submit" />
+				<input type="reset" id="reset" />
+			</div>
+		</form>
+	</article>
+      </div>
+	  <br/>
+      <footer>
+         <div class="footer-conatiner">
+            <p>© Osama Iftikhar | Last updated: 06/10/2021</p>
+         </div>
+      </footer>
+   </body>
+</html>

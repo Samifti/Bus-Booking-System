@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Travel</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	 <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>  
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Oswald&amp;display=swap" rel="stylesheet"/>
+   </head>
+   <body>
+  
+      <div class="header">
+
+         <div class="nav-container">
+		 	   
+            <div class="logo">
+               <img src="img/logo1.png" alt="logo" />
+            </div>
+            <nav>
+               <ul>
+			  <div class="home">
+                  <li><a class="current" href="index.html">Home</a></li> </div>
+				   <div class="dropdown">
+				<li><button class="dropbtn" >Travel
+					<i class="fa fa-caret-down"></i>
+				</button> </li>
+				  <div class="dropdown-content">
+                  <li><a href="lahore.html">Lahore</a></li>
+                  <li><a href="karachi.html">Karachi</a></li>
+                  <li><a href="islamabad.html">Islamabad</a></li>
+				  <li><a href="multan.html">Multan</a></li>
+				  </div>
+				  </div>
+                  <li><a class="ex2" href="enquiry.html">Enquiry</a></li>
+                  <li><a class="ex2" href="about.html">About Me</a></li>
+				  <li><a  class="ex2" href="disclaimer.html">Disclaimer </a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <div class="banner-image-islam banner-st">
+         <div class="banner-text">
+            <h1 class="heading1">Islamabad</h1>
+         </div>
+      </div>
+      
+         <marquee onmouseover="this.stop();" onmouseout="this.start();">
+              Welcome to TransFlux Bus Transport Services. We offer Luxury Transportation from Major cities in Pakistan.
+         </marquee>
+     
+	<div class="desci">
+	   <div class="desc2">
+            <h2>The Capital City</h2>
+			<h5> he capital  of Pakistan, Islamabad, is located in the northwest of the country on the Potohar plateau. . The city was built in 1960 to replace Karachi as the capital of Pakistan, which  has been since 1963. 
+ Compared to other cities in the country, Islamabad is a clean, spacious and quiet city with lots of greenery. The location of the city has a history dating back to the earliest human settlements in Asia. This area has seen the first settlement of Aryans from Central Asia, ancient caravans  from Central Asia, and the massive armies of Tamerlane and Alexander. 
+ North of the city are the Margalla Hills. Hot summers, monsoons and cold winters with little snowfall on the hills almost summarize the climate of this area. Islamabad also has abundant wildlife ranging from wild boars to leopards.</h5>
+ </div>
+ </div>
+ <br/>
+ <br/>
+ <section class="backg">
+
+	   <div class="desc2">
+            <h2>To Lahore</h2>
+			</div>
+	  <div class="card-col">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Economy</div>
+               </div>
+	<h4>Islamabad To Lahore </h4>
+	<h5>Departure: 12:00pm </h5>  <h5>Arrival: 5:00am</h5>
+	<hr/>
+	<p>3500 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+  <div class="card-col2">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Business Class</div>
+               </div>
+	<h4>Islamabad To Lahore  </h4>
+	<h5>Departure: 1:00pm </h5>  <h5>Arrival: 6:00am</h5>
+	<hr/>
+	<p>5000 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+ <div class="desc2">
+            <h2>To Multan</h2>
+			</div>
+<div class="card-col">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Economy</div>
+               </div>
+	<h4>Islamabad to Multan </h4>
+	<h5>Departure: 12:00pm </h5>  <h5>Arrival: 4:00pm</h5>
+	<hr/>
+	<p>4500 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+
+  <div class="card-col2">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Business Class</div>
+               </div>
+	<h4>Islamabad to Multan </h4>
+	<h5>Departure: 1:00pm </h5>  <h5>Arrival: 4:00pm</h5>
+	<hr/>
+	<p>5500 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+ <div class="desc2">
+            <h2>To Karachi</h2>
+			</div>
+<div class="card-col">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Economy</div>
+               </div>
+	<h4>Islamabad to Karachi </h4>
+	<h5>Departure: 12:00pm </h5>  <h5>Arrival: 8:00pm</h5>
+	<hr/>
+	<p>2800 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+  <div class="card-col2">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Business Class</div>
+               </div>
+	<h4>Islamabad to Karachi </h4>
+	<h5>Departure: 1:00pm </h5>  <h5>Arrival: 9:00pm</h5>
+	<hr/>
+	<p>4000 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+   </section>
+      <br/>
+      <footer>
+         <div class="footer-conatiner">
+            <p>© Osama Iftikhar Last updated: 06/10/2021</p>
+         </div>
+      </footer>
+   </body>
+</html>

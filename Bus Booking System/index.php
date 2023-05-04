@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <meta charset="utf-8"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+	   <link rel="preconnect" href="https://fonts.googleapis.com">
+	   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald&display=swap" rel="stylesheet">
+ 
+      <script src="script.js"></script>
+   </head>
+         
+   <body>
+      <?php 
+         $activeSection = 'home';
+         include 'header.php';
+      ?>
+
+      <?php 
+         $bannerImgClass = 'banner-image';
+         $title = 'Translux';
+         $isShowBtn = true;
+         include 'banner.php';
+      ?>
+    
+      <div class="container into-background-image" style="color: white;">
+         <h1>Introduction</h1>
+         <hr>
+         <div class="news-container" id="tech-news">
+            <div class="container">
+			      <div class="blur">
+                  <p id="anim">
+			            TransFlux Bus Transport Service has been providing the highest quality services since 1999. Customer comfort, safety and satisfaction has always been our mission statement.Through 30 years of public transport operations, we are constantly improving the standard and quality of our services and buses. Our buses are of highest quality possible with passengers comfort and safety as main consideration. They are also environmental friendly which meet the Pakistan emission standards. With our commitment towards excellence has marked improvement in all aspect of our services.
+                  </p>
+			      </div>
+            </div>
+         </div> 
+      </div>
+
+      <div class="feat bg-gray pt-5 pb-5">
+         <div class="container">
+            <div class="row">
+               <div class="section-head col-sm-12">
+                  <h4><span>Why Choose</span> Us?</h4>
+                  <p>When you choose us, you'll feel the benefit of 10 years' experience of Transport services. Because we know the logistics world and we know that how to handle it. With working knowledge of the roads and cities.</p>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="item"> 
+                     <span class="icon feature_box_col_one">
+                        <img src="img/globe.png" alt="globe">
+                        <i class="fa fa-globe"></i>
+                     </span>
+                     <h3>Available Nationwide</h3>
+                     <p>We have a veriety of buses all over Pakistan.</p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="item"> 
+                     <span class="icon feature_box_col_two">
+                        <img src="img/fast.png" alt="truck">
+                        <i class="fa fa-anchor"></i>
+                     </span>
+                     <h3>Premium Comfort</h3>
+                     <p>We are always creative and and always attend to  our customers comfort and we mix these two things and make best service.</p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="item"> 
+                     <span class="icon feature_box_col_three">
+                        <img src="img/hourglass.png" alt="glass">
+                        <i class="fa fa-hourglass-half"></i>
+                     </span>
+                     <h3>24 x 7 User Support</h3>
+                     <p>If our customer has any problem and any query we are always happy to help then.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br>
+	   <div class="map">
+	      <h2>Location</h2>
+         <div class="maptitle"> 
+            <p>Visit our Our Ticketing office for more Information.</p>
+         </div>
+         <div class="mapmain">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13593.957548970388!2d74.3174947!3d31.5930474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x52407b0689687ce5!2sGeneral%20Bus%20Stand%2C%20Badami%20Bagh%2C%20Lahore!5e0!3m2!1sen!2s!4v1633383674297!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+         <br>
+		   <br>
+		   <div>
+	         <div class="form-container feed-background-image" style="height: 45%;">
+               <form id="formcas">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Enter email..">
+                  <button class="book">Book Now</button>
+               </form>
+            </div>
+	      </div>
+	   </div>
+	 
+	  <footer>
+         <div class="footer-conatiner">
+            <p>
+               © Osama Iftikhar | Last updated: 04/10/2021
+            </p>
+         </div>
+      </footer>
+   </body>
+</html>

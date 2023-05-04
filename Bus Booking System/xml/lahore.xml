@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Travel</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	 <link rel="preconnect" href="https://fonts.googleapis.com"/>
+	  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Oswald&amp;display=swap" rel="stylesheet"/>
+   </head>
+   <body>
+  
+      <div class="header">
+
+         <div class="nav-container">
+		 	   
+            <div class="logo">
+               <img src="img/logo1.png" alt="logo" />
+            </div>
+            <nav>
+               <ul>
+			  <div class="home">
+                  <li><a class="current" href="index.html">Home</a></li> </div>
+				   <div class="dropdown">
+				<li><button class="dropbtn" >Travel
+					<i class="fa fa-caret-down"></i>
+				</button> </li>
+				  <div class="dropdown-content">
+                  <li><a href="lahore.html">Lahore</a></li>
+                  <li><a href="karachi.html">Karachi</a></li>
+                  <li><a href="islamabad.html">Islamabad</a></li>
+				  <li><a href="multan.html">Multan</a></li>
+				  </div>
+				  </div>
+                  <li><a class="ex2" href="enquiry.html">Enquiry</a></li>
+                  <li><a class="ex2" href="about.html">About Me</a></li>
+				  <li><a  class="ex2" href="disclaimer.html">Disclaimer </a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <div class="banner-image-lahore banner-st">
+         <div class="banner-text">
+            <h1 class="heading1">Lahore</h1>
+         </div>
+      </div>
+      
+         <marquee onmouseover="this.stop();" onmouseout="this.start();">
+              Welcome to TransFlux Bus Transport Services. We offer Luxury Transportation from Major cities in Pakistan.
+         </marquee>
+     
+	  <div class="desc">
+	   <div class="desc2">
+            <h2>The City Of Gardens</h2>
+			<h5> Lahore's origins date back to the 1st and 7th centuries AD. However, historians conclude that Lahore was  founded by Loh and Rama's son, who is referred to as the Hindu god in Ramayana. According to Sir Robert Montgomery, Lahore gained importance between the 2nd and 4th centuries. According to the Greek geographer Ptolemy, Lahore was founded in the late 1st century. According to the book, oodeAalamahore emerged as a city in 882 AD. 
+ Lahore residents say "Lahore is Lahore" when they want to highlight the uniqueness of their city. The traditional capital of Punjab was the cultural center of North India for a thousand years,  from Peshawar to New Delhi. It also occupies this prominent position  in Pakistan. Lahore is the city of poets, artists and the center of the film industry. It has the largest number of educational institutions in the country and some of the most beautiful gardens on the continent.</h5>
+        </div>
+	  </div>
+	    <section class="backg">
+	  <div class="desc2">
+            <h2>To Karachi</h2>
+			</div>
+	  <div class="card-col">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Economy</div>
+               </div>
+	<h4>Lahore to Karachi </h4>
+	<h5>Departure: 12:00pm </h5>  <h5>Arrival: 5:00am</h5>
+	<hr/>
+	<p>3500 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+  <div class="card-col2">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Business Class</div>
+               </div>
+	<h4>Lahore to Karachi </h4>
+	<h5>Departure: 1:00pm </h5>  <h5>Arrival: 6:00am</h5>
+	<hr/>
+	<p>5000 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+<div class="desc2">
+            <h2>To Islamabad</h2>
+			</div>
+<div class="card-col">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Economy</div>
+               </div>
+	<h4>Lahore to Islamabad </h4>
+	<h5>Departure: 12:00pm </h5>  <h5>Arrival: 3:00pm</h5>
+	<hr/>
+	<p>1500 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+  <div class="card-col2">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Business Class</div>
+               </div>
+	<h4>Lahore to Islamabad </h4>
+	<h5>Departure: 1:00pm </h5>  <h5>Arrival: 4:00pm</h5>
+	<hr/>
+	<p>2500 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+<div class="desc2">
+            <h2>To Multan</h2>
+			</div>
+<div class="card-col">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Economy</div>
+               </div>
+	<h4>Lahore to Multan </h4>
+	<h5>Departure: 12:00pm </h5>  <h5>Arrival: 8:00pm</h5>
+	<hr/>
+	<p>2800 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+  <div class="card-col2">
+	   <div class="container2">
+	   <div class="image">
+	<img src="img/bus.png" alt="redbus" class="png-block"/>
+	 <div class="middle">
+                  <div class="text">Business Class</div>
+               </div>
+	<h4>Lahore to Multan </h4>
+	<h5>Departure: 1:00pm </h5>  <h5>Arrival: 9:00pm</h5>
+	<hr/>
+	<p>4000 PKR</p>
+	<button type="button" class="book" onclick="location.href='enquiry.html'">Enquire Now</button>
+</div>
+</div>
+</div>
+     </section>
+      <br/>
+      <footer>
+         <div class="footer-conatiner">
+            <p>© Osama Iftikhar | Last updated: 06/10/2021</p>
+         </div>
+      </footer>
+   </body>
+</html>

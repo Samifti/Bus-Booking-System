@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	 <link rel="preconnect" href="https://fonts.googleapis.com"/>
+	 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Oswald&amp;display=swap" rel="stylesheet"/>
+   </head>
+   <body>
+  
+      <div class="header">
+
+         <div class="nav-container">
+		 	   
+            <div class="logo">
+               <img src="img/logo1.png" />
+            </div>
+            <nav>
+               <ul>
+			  <div class="home">
+                  <li><a class="current" href="index.html">Home</a></li> </div>
+				   <div class="dropdown">
+				<li><button class="dropbtn" ><span>Travel</span> 
+					<i class="fa fa-caret-down"></i>
+				</button> </li>
+				  <div class="dropdown-content">
+                  <li><a href="lahore.html">Lahore</a></li>
+                  <li><a href="karachi.html">Karachi</a></li>
+                  <li><a href="islamabad.html">Islamabad</a></li>
+				  <li><a href="multan.html">Multan</a></li>
+				  </div>
+				  </div>
+                  <li><a class="ex2" href="enquiry.html">Enquiry</a></li>
+                  <li><a class="ex2" href="about.html">About Me</a></li>
+				  <li><a  class="ex2" href="disclaimer.html">Disclaimer </a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      
+	 <article>
+	 <section class="white">
+		<h1 id="enh-heading">Enhancements</h1>
+			<ol id="enha">
+			<li> The nav abr consists of some pages enalrged for the user to visualize it easily. </li>
+			<li>Drop down Menu used to make the desing more convenient to the user.<br/><strong>Citation:</strong>https://www.w3schools.com/howto/howto_css_dropdown.asp</li>
+			<li>A map embedded on the <a href="index.html">Home page.</a> This map is used to  assist the user to find the exact location of where the Buses are located.<br/><strong>URL Used:</strong><br/> https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13593.957548970388!2d74.3174947!3d31.5930474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x52407b0689687ce5!2sGeneral%20Bus%20Stand%2C%20Badami%20Bagh%2C%20Lahore!5e0!3m2!1sen!2s!4v1633383674297!5m2!1sen!2s" <br/><br/><strong>Citation:</strong>https://extension.umaine.edu/plugged-in/technology-marketing-communications/web/tips-for-web-managers/embed-map/</li>
+			<li>A favicon is being used on every page of the website.  <br/><strong>Citation:</strong>https://www.javatpoint.com/html-favicon</li>
+			<li> A marquee is added to welcome the customers on the website. </li>
+			<li> A very visually appealing section called why choose us was added to allow tthe user to know more about the choice of ther service.</li>
+			</ol>
+	</section>
+	
+	</article>
+   </body>
+</html>
